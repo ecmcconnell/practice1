@@ -13,3 +13,12 @@ updates:
     - "ecmcconnell"
     assignees:
     - "ecmcconnell"
+updates:
+  - package-ecosystem: "docker" # See documentation for possible values
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "weekly"
+    reviewers:
+    - "ecmcconnell"
+    assignees:
+    - "ecmcconnell"
